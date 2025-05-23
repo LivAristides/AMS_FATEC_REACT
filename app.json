@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "af0121af-acad-4a0b-a498-4c3be52c6677"
+      }
+    },
+    "owner": "liv_aristides"
   }
 }
