@@ -1,6 +1,8 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, } from "react-native";
+
 
 export default function Exercicio1() {
+
   return (
     //para estilizar, eu declaro uma "class" para o meu componente View e Text
     <View style = {styles.container}>

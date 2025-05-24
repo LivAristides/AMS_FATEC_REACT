@@ -7,10 +7,11 @@ export default function Exercicio2() {
 
     <View style = {styles.card}>
       <Image 
-      source={require('../assets/images/homemaranha.png')}
+      source={require('../assets/images/spiderman.jpg')}
       style={styles.image}>
       </Image>
       <Text style = {styles.text}>Homem-Aranha</Text>
+      <Text style = {styles.subtext}>O amigão da vizinhança</Text>
       </View>
 
     </View>
@@ -25,10 +26,11 @@ export default function Exercicio2() {
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "#f3f0f0",
+        
         },
         image: {
-          width: 200,
-          height: 200,
+          width: 150,
+          height: 150,
           borderRadius: 100, 
           resizeMode: "cover",
           shadowColor: "#000",
@@ -45,11 +47,16 @@ export default function Exercicio2() {
             shadowOffset: { width: 0, height: 5 },
             shadowOpacity: 0.25,
             shadowRadius: 6,
+            width: 350
             
         },
         text: {
             fontSize: 22,
             fontWeight: "bold",
+        },
+        subtext: {
+          fontSize: 16,
+          fontWeight: "semibold",
         }
 
       });
